@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    position: relative;
+    left:4em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+pre {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: darkred;
+    position: relative;
+    left: 5em;
+}
+#delete {
+    position: relative;
+    left: 22em;
+    padding: 3px;
+}
+#edit {
+    position: relative;
+    left:21em;
+    padding: 3px;
+}
+.toDoList {
+    display: grid;
+    background-color: rgab(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.9);
+     /* height: 60vh;  */
+     width: 100vh;
+    /* margin-top: 2em; */
+}
+ 
+form input{
+    width:60%;
+    background-color: whitesmoke;
+    color: black;
+    height:5vh;
+    font-size:larger;
+
+}
+form button{
+   background-color: green;
+   color:azure;
+   padding: 0.5em;
+   cursor: pointer;
+}
+form{
+    padding:1em ;
+}
