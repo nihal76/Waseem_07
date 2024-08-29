@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    display: flex;
+    font-size: large;
+}
+header img{
+    height: 2.5em;
+    width:4em;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+nav li{
+    list-style: none;
+}
+nav a:hover{
+   background-color: black;
+   color: antiquewhite;
+}
+
+nav{
+    display: flex;
+    font-size: 1.5em;
+    gap: 2em;
+    justify-content:flex-start;
+    background-color:white;
+    height: 5vh;
+    text-align: center;
+    position: sticky;
+    top:0;
+}
+#articleCategory, #trendingArticle{
+    font-size: medium;
+    display: none;
+    background-color: whitesmoke;
+    text-align: center;
+}
+#articleCategory a, #trendingArticle a{
+    color: black;
+}
+#articleCategory a:hover, #trendingArticle a:hover{
+    color: red;
+    background-color: white;
+}
+input{
+    border: 2px solid brown;
+    width:15vw;
+    height: 5vh;
+    padding: 1em;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;
+    margin-top: 2em;
+}
+/* styling source icons  */
+.icons{
+    width:1em;
+    height: 1em;
+}
+.articleImg{
+    width:80%;
+    height: 60%;
+}
+
+header, nav{
+    background-color: black;
+}
+
+button{
+    background-color: lightblue;
+    padding: 0.5em;
+    cursor: pointer;
+}
+

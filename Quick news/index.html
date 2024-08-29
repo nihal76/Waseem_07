@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick news</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 style="color:white;">
+            Quick 
+        </h2>
+        <img src="https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2021/08/02/news.jpg?itok=eEnb05ue" alt="news icon">
+    </header>
+    <nav>
+        <li id="Home"><a href="#">All</a></li>
+        <li id="category"><a href="#">Category</a><br>
+         <!-- <select id="articleCategory" style="visibility: hidden;">
+            <option value="sports" >Sports</option>
+            <option value="technology" >Technology</option>
+            <option value="science">Science</option>
+            <option value="business">Business</option>
+         </select>               -->
+         <span id="articleCategory">
+            <a id="sports" href="#">Sports</a><br>
+            <a id="tech" href="#">Technology</a><br>
+            <a id="science" href="#">Science</a><br>
+         </span>
+        </li>
+        <li id="trending"><a href="#">Trending</a>
+            <span id="trendingArticle">
+                <a id="usa" href="#">Latest from USA</a><br>
+                <a id="war" href="#">Israel War</a><br>
+                <a id="weather" href="#">India Weather</a>
+             </span>
+        </li>
+        <div class="search">
+        <input type="search" placeholder="Browse News Articles">
+        <button>Search</button>
+    </div>
+    </nav>
+    <main class="articles">
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
