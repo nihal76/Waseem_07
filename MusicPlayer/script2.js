@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     let playAgain = document.getElementsByClassName('nav')[0];
     let para;
-    let box = false;  // Track whether the popup is shown or hidden
+    let box = false;  
     let secondPage = document.getElementById('favPlaylist');
 
     if (playAgain) {
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 });
             } else {
-                // Hide the popup if it is already visible
+    
                 document.getElementsByClassName('songs')[0].removeChild(para);
                 box = false;
             }
