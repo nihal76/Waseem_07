@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gym_home.css">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            font-size: 2rem;
+            
+        }
+        html,body{
+            height:100%;
+            overflow: hidden;
+            background-color: rgba(50, 79, 53, 0.5);
+        }
+       
+        .container {
+            display:grid;
+       grid-template-rows: 80px 1fr 60px 80px;
+       grid-template-columns: repeat(12,1fr);
+        }
+        header{
+            grid-column: 1 / span 12;
+            grid-row: 1 / span 1;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left:0;
+        }
+        .ad{
+         
+            grid-column: 1 / span 2;
+            grid-row: 2 / 3;
+        }
+        main{
+            
+            grid-column: 3 / span 7;
+            grid-row:2 / 3;
+        }
+        .side {
+        
+            grid-row: 2 / span 1;
+            grid-column: 10 / thirteen;
+        }
+        .blog{
+            grid-column: 1 / span 6;
+            grid-row: 3 / 4;
+        }
+        aside {
+        
+            grid-column: 6 / span 7;
+            grid-row: 3 / 4;
+
+        }
+        footer{
+            grid-row: 4 / span 1;
+            grid-column: 1 / 13;
+        }
+        li a{
+           text-decoration: none;
+           font-size: medium;
+           color: black; 
+          font-weight: bolder;
+          padding: 7px;
+        }
+       
+        a:hover {
+            background-color:black;
+            color: whitesmoke;
+            
+        }
+        li {
+            list-style: none;
+            display: inline-block;       
+        }
+        nav {
+          
+          display: flex;
+          justify-content: flex-end;
+      
+          /* align-items: center;  */
+      }
+       
+        img{
+          width:80px;
+           height: 60px;
+           position:relative;
+           right: 800px;
+           padding: 10px;
+           border-radius: 60px;
+        }
+       
+        .custom-button, .member, .video{
+      background-color: rgba(255,0,100,0.6); /* Green */
+      border: none;
+      color: white;
+      padding: 15px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin:15px 15px;
+      border-radius: 35px;
+    }
+    .button .member{
+        display: inline-block;
+       background-color: darkgreen;
+       text-decoration: none;
+    }
+    .member a{
+        text-decoration: none;
+        color: white;
+        font-size:16px;
+    }
+    .button .video{
+        background-color:rgba(255,255,255,0.1);
+    }
+   
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+      <header>
+        <nav>
+            <img src="https://t3.ftcdn.net/jpg/02/63/39/58/360_F_263395839_TgoVpfFJatraCxiMDETXKpfImEfysRbB.jpg" alt="">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="gym_about.html">ABOUT</a></li>
+            <li><a href="#">SCHEDULES</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="#">CONTACT</a></li>
+           </ul> 
+           <button id="myButton" class="custom-button">Register</button>
+        </nav>
+      </header>
+     <!--Home Page  -->
+      <main>
+     <div class="Home">
+  <h3>FEEL THE DIFFERENCE
+SEE THE DIFFERENCE
+<span>BECOME DIFFERENT</span>
+       </h3>
+<div><p>Your way to healthy and strong body starts in this gym, Get ready for a wild ride - It's gonna push you to your new limits</p></div>
+<div class="button">
+<button class ="member"><a href="pricing.html">Join member</a></button>
+<button class="video">Watch training</button>
+</div>
+     </div>
+    </main>
+      <div class="side">
+        
+    </div>
+      <div class="blog"></div>
+      <aside></aside>
+      <footer></footer>
+    </div>
+</div>
+</body>
+</html>

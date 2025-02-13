@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <link id="styles" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="display"></p>
+    <button id="show" style="background-color: #fff; color: darkred; padding: 0.5em; visibility: hidden;">OK</button>
+    <h1>Countdown timer</h1>
+    <table>
+        <thead>
+            <tr>
+             <th>Enter Date</th>
+                <th>Enter Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" name="date" id="calender"></td>
+                <td><input type="time" name="time" id="time"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button id="start">Calculate</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="timer">
+        <div class="day">
+            <p>DAY</p>
+            <h1 id="days">0</h1>
+        </div>
+        <div class="hours">
+            <p>HOURS</p>
+            <h1 id="hours">20</h1>
+        </div>
+        <div class="minutes">
+            <p>MINUTES</p>
+            <h1 id="minutes">27</h1>
+        </div>
+        <div class="seconds">
+            <p>SECONDS</p>
+            <h1 id="seconds">37</h1>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

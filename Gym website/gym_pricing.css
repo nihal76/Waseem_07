@@ -1,0 +1,71 @@
+.pricing{
+    display: flex;
+    column-gap: 20px;
+   align-items: center;
+    margin: 7px;
+    width:60vw;
+    height:80vh;
+    position: relative;
+    bottom: 50px;
+}
+.pricing .bronze, .gold, .silver{
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,1);
+    font-size: medium;
+    max-width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.pricing ul > li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    margin:2px;
+    font-weight: 500;
+}
+.pricing ul {
+    margin:10px;
+}
+
+#subscribe2{
+    background-color: rgba(255,0,0,0.6); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin:15px 15px;
+    border-radius: 35px;
+  }
+  #subscribe1, #subscribe3 {
+    border: none;
+    color: crimson;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin:15px 15px;
+    border-radius: 35px;
+  }
+h2 {
+    text-align: center;
+    color:rgba(255,255,255,1);
+    position:relative;
+    top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+}
+h2 span {
+    color: green;
+}
+.pricing span {
+    font-weight: bolder;
+    font-size: 30px;
+}
